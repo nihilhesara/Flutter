@@ -1,0 +1,13 @@
+To change the app icon
+https://www.appicon.co/
+
+Shortcuts 
+
+alt + enter - wrap with center 
+
+
+connect phone with wifi 
+
+1. Phone and the desktop ust be in same wifi 
+2. Go to phone settings and turn on developer options
+3. turn on wireless debugger

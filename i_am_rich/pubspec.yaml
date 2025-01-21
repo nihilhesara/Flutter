@@ -25,6 +25,6 @@ flutter:
 
 # Add images path to the ymal file
   assets:
-    - images/diamond.png
+    - images/
 
 
