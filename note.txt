@@ -3,11 +3,19 @@ https://www.appicon.co/
 
 Shortcuts 
 
-alt + enter - wrap with center 
-
+alt + enter - a menu with (wrap with center / wrap with widget)
+stless - automatically create a stateless widget 
 
 connect phone with wifi 
 
 1. Phone and the desktop ust be in same wifi 
 2. Go to phone settings and turn on developer options
-3. turn on wireless debugger
+3. turn on wireless debugger (if you want to connect from cabel then turn on usb debugger)
+
+for images 
+https://icons8.com/
+https://www.vecteezy.com/?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=vecteezy&utm_content=us&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfSlgIHjON1Ab0ho1u15wMb6D_czmAVYzcuV31AvFCOQ0uVq9oL_AEcaAnGnEALw_wcB
+
+folder structure 
+1. I am rich 
+2. card flutter
