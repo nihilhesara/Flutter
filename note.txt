@@ -1,3 +1,6 @@
+Cretae a flutter app from cmd 
+flutter create project_name
+
 To change the app icon
 https://www.appicon.co/
 
@@ -5,6 +8,7 @@ Shortcuts
 
 alt + enter - a menu with (wrap with center / wrap with widget)
 stless - automatically create a stateless widget 
+ctrl + q - press any function that you want to know details about and enter the shortcut key
 
 connect phone with wifi 
 
@@ -16,6 +20,10 @@ for images
 https://icons8.com/
 https://www.vecteezy.com/?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=vecteezy&utm_content=us&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfSlgIHjON1Ab0ho1u15wMb6D_czmAVYzcuV31AvFCOQ0uVq9oL_AEcaAnGnEALw_wcB
 
+for icons 
+https://fonts.google.com/icons
+
 folder structure 
 1. I am rich 
 2. card flutter
+3. my card
