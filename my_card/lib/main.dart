@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue,
         body: SafeArea(
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.center, // Centers content vertically
-            //crossAxisAlignment: CrossAxisAlignment.center, // Centers content horizontally
+            mainAxisAlignment: MainAxisAlignment.center, // Centers content vertically
+            crossAxisAlignment: CrossAxisAlignment.center, // Centers content horizontally
             children: <Widget>[
               CircleAvatar(
                 radius: 50,
@@ -40,52 +40,56 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Card(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                child: Row(
-                  children: <Widget> [
-                    Icon(
-                        Icons.phone,
-                        // size: 100, // can adjust the size of the icon
-                        color: Colors.teal,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text( "077 580 0667",
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontFamily: 'SourceCodePro',
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ],
+              // HR - Horizontal rule in flutter
+              SizedBox(
+                height: 5,
+                width: 150,
+                child: Divider(
+                  color: Colors.teal.shade100,
                 ),
               ),
-              Card(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                child: Row(
-                  children: <Widget> [
-                    Icon(
-                      Icons.email,
+              Padding(
+                padding: const EdgeInsets.all(8),
+                child: Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
                       // size: 100, // can adjust the size of the icon
-                      color: Colors.teal,
+                      color: Colors.blue,
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text( "nihilhesa@gmail.com",
+                    title: Text( "077 580 0667",
                       style: TextStyle(
-                        color: Colors.teal.shade900,
+                        color: Colors.blue.shade900,
                         fontFamily: 'SourceCodePro',
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                  ],
+                  )
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8),
+                child: Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                  child: ListTile( // use tis other than using row
+                    leading: Icon(
+                      Icons.email,
+                      // size: 100, // can adjust the size of the icon
+                      color: Colors.blue,
+                    ),
+                    title: Text( "nihilhesa@gmail.com",
+                      style: TextStyle(
+                        color: Colors.blue.shade900,
+                        fontFamily: 'SourceCodePro',
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  )
                 ),
               ),
             ],
@@ -95,3 +99,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+

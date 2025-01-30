@@ -23,7 +23,26 @@ https://www.vecteezy.com/?utm_source=google&utm_medium=cpc&utm_campaign=brand&ut
 for icons 
 https://fonts.google.com/icons
 
-folder structure 
+folder structure
+
+lib/
+├── main.dart           
+├── screens/                    - main screens in the app
+│   ├── home_screen.dart
+│   ├── 
+├── widgets/                    - the reusable widgets in the app
+│   ├── custom_button.dart
+│   ├── 
+├── models/                     - structure of our data like JSON
+│   ├── 
+├── services/                   - backend communication such as api calls and database instructions
+│   ├── 
+├── utils/                      - fromating constants and other data
+│   ├── 
+│   ├── 
+
+
+folders
 1. I am rich 
 2. card flutter
 3. my card
