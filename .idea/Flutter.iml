@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/card_flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/card_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/card_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/i_am_rich/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/i_am_rich/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/i_am_rich/build" />
+      <excludeFolder url="file://$MODULE_DIR$/my_card/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/my_card/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/my_card/build" />
+      <excludeFolder url="file://$MODULE_DIR$/smart_sprout/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/smart_sprout/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/smart_sprout/build" />
+      <excludeFolder url="file://$MODULE_DIR$/sprout/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/sprout/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/sprout/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
